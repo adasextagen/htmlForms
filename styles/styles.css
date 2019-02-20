@@ -1,31 +1,34 @@
 body{
-    background: pink;
+    background:lightsalmon;
     
 }
 
 form{
     font-size:40px;
+    text-align:center;
+    border-style: ridge;
 }
 
 form label {
 
     font-family: Calibri;
     display: block;
+    background: white;
+    
 }
 
 form label span.fieldTitle {
-    color:violet;
+    color:lightskyblue;
 
 }
 
 form label input {
-    background: blue;
+    background:grey;
 
 }
 
 form button {
-    color: red;
-    display:block;
+    color:black;
     font-size:30px;
-    font-family: sans-serif;
+    text-decoration:underline;
 }
