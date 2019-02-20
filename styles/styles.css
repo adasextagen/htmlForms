@@ -1,23 +1,21 @@
-body{
+body{background: rgb(247, 223, 223)
 
 }
 
-form{
+form{background-color: rgba(0, 255, 255, 0.425); font-family: Georgia, 'Times New Roman', Times, serif;font-size: 30px;margin-block-start: 30px
 
 }
 
-form label {
+form label {background: rgb(241, 200, 241);font-size: 55px;font-family: Verdana, Geneva, Tahoma, sans-serif;text-decoration-color: grey;
+}
+
+form label span.fieldTitle {font-family: Georgia, 'Times New Roman', Times, serif;font-size: 60px;margin-block-start: 0
 
 }
 
-form label span.fieldTitle {
-
+form label input {font-variant-numeric: 0;font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-form label input {
-
-}
-
-form button {
+form button {text-justify: 0px;border-top-style: 48px;
 
 }
