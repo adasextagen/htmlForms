@@ -1,26 +1,41 @@
 body{ 
-    font-family:Verdana; background-color:palegreen;
+    font-family:Verdana; background-color:lightpink;
 }
 
+header{
+    font-family:'Courier New', Courier, monospace;
+    font-size:60px;
+}
+
+hr{
+    border-top: 2px solid black;
+
+}
 form{
-    
+    font-family:Verdana;
 
 }
 
 form label {
-    background-color:palegoldenrod
 
 }
 
 form label span.fieldTitle {
+    font-size: 20px;
 
 }
 
 form label input {
+    display: inline;
 
 }
 
+form legend {
+    font-size: 20px;
+}
+
 form button {
-    font-size: 25px;
+    font-size: 23px;
+    background-color:palevioletred;
 
 }

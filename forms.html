@@ -5,16 +5,44 @@
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
   </head>
   <body>
+      <header>Formularios y estilos</header>
+      <hr/>
     	<form>
+        <p>
+        <label>
+          <span class="fieldTitle">Ingrese nombre y apellido:</span>
+          <input type="text">
+        </label>
+        <p>
+        <label>
+          <span class="fieldTitle">Ingrese número de teléfono:</span>
+          <input type="number">
+        </label>
+        <p>
         <label>
           <span class="fieldTitle">Ingrese usuario:</span>
-          <input type="text" type="password">
+          <input type="text">
         </label>
-        <br>
+        <p>
         <label>
           <span class="fieldTitle">Ingrese contraseña:</span>
           <input id="usePassword" type="password">
         </label>
+        <p>
+        <p>
+          <label>
+          <legend>Elige una modalidad de cursada</legend>
+        <p>
+            <input class="with-gap" type="radio" name="Dias de cursada" value="Lunes a Viernes"> Lunes a viernes
+          </label>
+          <label>
+            <input class="with-gap" type="radio" name="Dias de cursada" Value="Lunes, miércoles y viernes"> Lunes, miércoles y viernes
+          </label>
+          <label>
+            <input class="with-gap" type="radio" name="Dias de cursada" Value="Martes, viernes y sábados"> Martes, viernes y sábados
+          </label>
+        </p>
+        <br>
         <button type="submit">Enviar</button>
       </form>
   </body>
