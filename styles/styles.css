@@ -30,6 +30,7 @@ form button {
     background-color: lavender;
     border-color:cyan;
     border-radius:15px;
+    margin: 5px;
     display:block
 }
 p {
