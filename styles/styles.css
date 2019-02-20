@@ -22,5 +22,8 @@ form label input {
 }
 
 form button { 
+    font-family: 'Lucida Sans';
+    font-style: oblique;
+    font-size: 25px
 
 }
