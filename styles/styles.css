@@ -1,23 +1,19 @@
 body{
-
+font-family: Arial, Helvetica, sans-serif;
 }
 
 form{
-
-}
-
-form label {
-
+font-size: 18px;
 }
 
 form label span.fieldTitle {
-
+color: brown;
 }
 
 form label input {
-
+display: block;
 }
 
 form button {
-
+font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
