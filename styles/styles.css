@@ -1,23 +1,39 @@
 body{
 
+font-family:  Helvetica, sans-serif;
+background-color: lightgray
 }
 
 form{
 
+    background-color: pink;
+    display: block;
+
 }
 
 form label {
+    display: block;
 
 }
 
 form label span.fieldTitle {
+    display: inline;
 
 }
 
 form label input {
+    display: block;
 
+}
+
+.checkbox {
+    display: inline;
 }
 
 form button {
 
+    background-color: lightskyblue;
+    border-bottom-color: white;
+    color: white;
+    font: bold;
 }

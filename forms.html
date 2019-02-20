@@ -2,10 +2,12 @@
 <html>
   <head>
     <title>Html Forms</title>
+    <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
   </head>
   <body>
     	<form>
+        <h1>Registrate</h1>
         <label>
           <span class="fieldTitle">Ingrese usuario:</span>
           <input id="userName" type="password">
@@ -15,6 +17,21 @@
           <span class="fieldTitle">Ingrese contraseña:</span>
           <input id="usePassword" type="password">
         </label>
+
+        Animal favorito:
+        <label>
+          <span class="fieldTitle"> Gato</span>
+        <input class="checkbox" name=gatos type="checkbox"  />
+       
+          
+        </label>
+        <label>
+          <span class="fieldTitle"> Perro</span>
+        <input  class="checkbox"name=perros type="checkbox"  />
+       
+          
+        </label>
+
         <button type="submit">Enviar</button>
       </form>
   </body>
