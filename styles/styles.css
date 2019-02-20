@@ -37,7 +37,7 @@ form label input {
 }
 
 form button {
-    display: block
+    display: block;
     font-size: 44px;
     color: fuchsia;
     font-family: Helvetica;
