@@ -1,8 +1,11 @@
 body{
-
+font-family: Arial;
+font-size: 14px;
 }
 
 form{
+    padding: 12px;
+    margin: 8px;
 
 }
 
@@ -11,13 +14,19 @@ form label {
 }
 
 form label span.fieldTitle {
+    padding: 15px; 
 
 }
 
 form label input {
+    border: 2px solid black;
+
 
 }
 
 form button {
+    padding: 15px;
+    margin: 45px;
+    width: 65px;
 
 }
