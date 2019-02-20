@@ -1,22 +1,62 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Html Forms</title>
-    <link rel="stylesheet" type="text/css" href="styles/styles.css">
-  </head>
-  <body>
-    	<form>
-        <label>
-          <span class="fieldTitle">Ingrese usuario:</span>
-          <input id="userName" type="password">
-        </label>
-        <br />
-        <label>
-          <span class="fieldTitle">Ingrese contraseña:</span>
-          <input id="usePassword" type="password">
-        </label>
-        <br />
-        <button type="submit">Enviar</button>
-      </form>
-  </body>
+
+<head>
+  <title>Html Forms</title>
+  <link rel="stylesheet" type="text/css" href="styles/styles.css">
+</head>
+
+<body>
+  <form>
+    <legend>Elige un color</legend>
+    <label class=container>
+      <input type="radio" name="color" value="azul"> Azul
+      <input type="radio" name="color" value="negro"> Negro
+      <input type="radio" name="color" value="amarillo"> Amarillo
+    </label>
+    <legend>Elige un número</legend>
+    <label>
+      <input type="radio" name="numero" value="1"> 1
+      <input type="radio" name="numero" value="2"> 2
+      <input type="radio" name="numero" value="3"> 3
+      <input type="radio" name="numero" value="3"> 4
+    </label>
+    <br />
+    <label>
+      <span class="fieldTitle">Ingrese usuario:</span>
+      <input id="userName" type="password">
+    </label>
+    <br />
+    <label>
+      <span class="fieldTitle">Ingrese contraseña:</span>
+      <input id="usePassword" type="password">
+    </label>
+    <br />
+    <button type="submit">Enviar</button>
+  </form>
+
+  
+  <form>
+    <div class="normal-container">
+      <div class="smile-rating-container">
+        <div class="smile-rating-toggle-container">
+          <form class="submit-rating">
+            <input id="meh" name="satisfaction" type="radio" />
+            <input id="fun" name="satisfaction" type="radio" />
+            <label for="meh" class="rating-label rating-label-meh">Bad</label>
+            <div class="smile-rating-toggle"></div>
+
+            <div class="rating-eye rating-eye-left"></div>
+            <div class="rating-eye rating-eye-right"></div>
+
+            <div class="mouth rating-eye-bad-mouth"></div>
+
+            <div class="toggle-rating-pill"></div>
+            <label for="fun" class="rating-label rating-label-fun">Fun</label>
+        </div>
+      </div>
+    </div>
+  </form>
+</body>
+
 </html>
