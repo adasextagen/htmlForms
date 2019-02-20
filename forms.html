@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
+      <meta charset="UTF-8">
     <title>Html Forms</title>
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
   </head>
   <body>
-    	<form>
+      <form>
         <label>
-          <span class="fieldTitle">Ingrese usuario:</span>
-          <input id="userName" type="password">
+          <span class="fieldTitle user">Ingrese usuario:</span>
+          <input id="userName" type="text" placeholder="ingrese usuario">
         </label>
-
+        <br>
+        </br> 
         <label>
-          <span class="fieldTitle">Ingrese contraseña:</span>
-          <input id="usePassword" type="password">
+          <div>
+          <span class="fieldTitle pass">Ingrese contraseña:</span>
+          <input id="usePassword" type="password" placeholder="ingrese contraseña"> 
+          </div>
         </label>
         <button type="submit">Enviar</button>
       </form>

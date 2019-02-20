@@ -1,22 +1,13 @@
-body{
+body{ font-family: century Georgia      
+}
+
+form{ 
 
 }
 
-form{
+form label .user{color: hsl(48, 89%, 50%)}
 
-}
-
-form label {
-
-}
-
-form label span.fieldTitle {
-
-}
-
-form label input {
-
-}
+form label .pass{color:  #ec7063 }
 
 form button {
 
