@@ -1,12 +1,14 @@
-body{
-
+body{ 
+    font-family:Verdana; background-color:palegreen;
 }
 
 form{
+    
 
 }
 
 form label {
+    background-color:palegoldenrod
 
 }
 
@@ -19,5 +21,6 @@ form label input {
 }
 
 form button {
+    font-size: 25px;
 
 }
