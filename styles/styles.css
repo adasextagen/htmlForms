@@ -1,23 +1,54 @@
 body{
-
+    background-color: rgb(233, 235, 226);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
 }
 
 form{
-
+    margin-top: 100px;
+    margin-left: 100px;
 }
 
 form label {
-
+    
+   
+    
 }
 
 form label span.fieldTitle {
+    font-style: italic;
 
 }
 
 form label input {
+    display: block;
+    border-radius: 5px;
+    width: 30%;
+    height: 50px;
+    margin-bottom: 30px;
+
+   
 
 }
 
+
+.seleccion {
+    width: 30%;
+    height: 50px;
+} 
+.checkbox{
+    display: inline;
+}
+
 form button {
+
+    border-radius: 15px;
+    background-color: red;
+    width: 30%;
+    height: 50px;
+    font-size: 24px;
+    margin-top: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    display: block;
 
 }
