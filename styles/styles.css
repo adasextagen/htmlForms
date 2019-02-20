@@ -1,4 +1,7 @@
 body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:blanchedalmond}
+    
 
 }
 
@@ -11,6 +14,7 @@ form label {
 }
 
 form label span.fieldTitle {
+    color: violet
 
 }
 
@@ -19,5 +23,7 @@ form label input {
 }
 
 form button {
+    font-size: 30px;
+    color: red;
 
 }
