@@ -1,23 +1,32 @@
+
 body{
-
-}
-
-form{
-
-}
-
-form label {
-
-}
-
-form label span.fieldTitle {
-
-}
-
-form label input {
-
-}
-
-form button {
-
-}
+    font-family: Arial;
+    background-color: pink;
+    text-align: center;
+    }
+    
+    form{ 
+         font-family: 'Courier New', Courier, monospace;
+         font-style: italic;
+    }
+    
+    form label {
+        background-color: light;
+    
+    }
+    
+    form label span.fieldTitle {
+        background-color:greenyellow;
+    
+    }
+    
+    form label input {
+        color: blue;
+        font-weight: 800;
+    }
+    
+    form button {
+        background-color: fuchsia;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        border-style: dotted;
+    }
