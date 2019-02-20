@@ -1,5 +1,7 @@
 body{
-
+    font-family:'lucida sans';
+    color:pink;
+    font-size: 20px;
 }
 
 form{
@@ -7,17 +9,32 @@ form{
 }
 
 form label {
-
+   
 }
 
 form label span.fieldTitle {
-
+    font-weight: bold;
+    font-variant: small-caps;
+    font-style: italic;
+    display:block
 }
 
 form label input {
-
+    border-color: deeppink;
+    background-color: lightgoldenrodyellow
 }
 
 form button {
-
+    font-family: impact;
+    color: blueviolet;
+    background-color: lavender;
+    border-color:cyan;
+    border-radius:15px;
+    display:block
+}
+p {
+    font-style: normal;
+    font-family: helvetica;
+    color:rebeccapurple;
+     
 }
