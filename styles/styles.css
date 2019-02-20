@@ -1,4 +1,13 @@
-body{
+body{ 
+    font-family: Arial;
+    background-color: black
+
+}
+
+h1{
+    color: teal;
+    font-style: italic;
+    font-family: Verdana;
 
 }
 
@@ -6,18 +15,32 @@ form{
 
 }
 
-form label {
+form label { 
+    color: cornflowerblue;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 24px;
+    background-color: black;
+    
 
 }
 
-form label span.fieldTitle {
+form label span.lalala {
+    color: rebeccapurple;
+    font-family: 'Lucida Sans';
+
 
 }
 
 form label input {
+    display: block
 
 }
 
 form button {
+    display: block
+    font-size: 44px;
+    color: fuchsia;
+    font-family: Helvetica;
+    background-color: black
+}           
 
-}

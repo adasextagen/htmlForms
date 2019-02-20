@@ -4,18 +4,33 @@
     <title>Html Forms</title>
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
   </head>
+
   <body>
+    <p>
+      <H1>YOU INFO HERE</H1>
+    </p>
     	<form>
         <label>
-          <span class="fieldTitle">Ingrese usuario:</span>
-          <input id="userName" type="password">
+          <span class="fieldTitle">User:</span>
+          <input id="userName" type="text">
         </label>
 
         <label>
-          <span class="fieldTitle">Ingrese contraseña:</span>
+          <span class="">Password:</span>
           <input id="usePassword" type="password">
         </label>
-        <button type="submit">Enviar</button>
+
+        <label>
+          <span class="fieldTitle">Date of birth:</span>
+          <input id="dateOfBirth" type="date">
+        </label>
+
+        <label>
+          <span class="fieldTitle">File:</span>
+          <input id="file" type="file">
+        </label>
+
+        <button type="submit">Send</button>
       </form>
   </body>
 </html>
