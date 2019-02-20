@@ -1,9 +1,18 @@
+html {
+background-color: rgb(243, 196, 196);
+}
+
 body{
 font-family: Arial, Helvetica, sans-serif;
 }
 
+h3{
+color: brown;
+letter-spacing: 1.5px;
+}
+
 form{
-font-size: 18px;
+font-size: 15px;
 }
 
 form label span.fieldTitle {
