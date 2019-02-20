@@ -1,23 +1,44 @@
-body{
-
+body{ 
+    background-color: blanchedalmond
+    
 }
 
-form{
+form{ 
+    background-color: lightpink
+    border: 3px solid violet
+    display: block;
+    
 
 }
 
 form label {
+    background-color: lightcoral
+    border-style: inset;
+    display: block;
+    border: 3px solid #73AD21
 
 }
 
 form label span.fieldTitle {
+    background-color: lightsalmon
+    display: block;
 
 }
 
 form label input {
-
+    background-color: palevioletred
+    display: block;
 }
 
 form button {
-
+    background-color: 
+    border-style: outset;
 }
+
+ul {
+    list-style-type: none;
+    margin: 30;
+    padding: 30;
+    width: 200px;
+    background-color: #f1f1f1;
+  }
