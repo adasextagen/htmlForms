@@ -21,11 +21,12 @@ form label input {
 
 }
 
-form button {
+form button {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: lightblue
+    
 }
 
-h1{ 
-    color: rgb(206, 56, 126)
+h1{ text-align: center;
+    color: rgb(206, 56, 126);
     
 }
