@@ -16,7 +16,7 @@ form label {
 }
 
 form label span.fieldTitle {
-    line-height: 1.6;
+ line-height: 1.6;
  opacity: 0.5;
 }
 
@@ -25,5 +25,6 @@ form label input {
 }
 
 form button {
+    cursor: pointer;
     border-collapse: collapse;
 }
