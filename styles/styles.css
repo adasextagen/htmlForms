@@ -1,5 +1,5 @@
 body{
-    background-color: blueviolet; font-family:'Courier New', Courier, monospace 
+    background-color: blueviolet; font-family:'Courier New', Courier, monospace; font-size: 30px
 
 }
 
@@ -19,7 +19,7 @@ form label input {
 
 }
 
-form button {
+form button {background-color:violet;
     font-size:35px
 
 }
