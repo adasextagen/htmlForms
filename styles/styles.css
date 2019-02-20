@@ -1,4 +1,4 @@
-body{
+body{ font-family: Arial; display: block
 
 }
 
@@ -6,7 +6,7 @@ form{
 
 }
 
-form label {
+form label { color: brown; display: block
 
 }
 
@@ -18,6 +18,6 @@ form label input {
 
 }
 
-form button {
+form button { color: cornflowerblue
 
 }
