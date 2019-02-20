@@ -1,5 +1,6 @@
 body{
-
+    font-family: 'Lucida Sans';
+    background: #dc143c;
 }
 
 form{
@@ -7,17 +8,21 @@ form{
 }
 
 form label {
-
+    background-color: blue;
 }
 
 form label span.fieldTitle {
-
+    color: aqua;
+    padding-right: 15pt;
 }
 
 form label input {
+    display: block;
 
 }
 
 form button {
-
+    display: block;
+    font-size: 150%;
+    font-family: fantasy;
 }
