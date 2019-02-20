@@ -1,23 +1,29 @@
 body{
-
+ font-family: Arial;
+ font-kerning: normal;
+ font-weight: bold;
+ background-color: rgb(247, 140, 101);
 }
 
 form{
-
+    width:290px;
+    margin: 0 auto;
+    text-align:left;
 }
 
 form label {
-
+    line-height: 0.8;
 }
 
 form label span.fieldTitle {
-
+    line-height: 1.6;
+ opacity: 0.5;
 }
 
 form label input {
-
+    line-height: 0.8;
 }
 
 form button {
-
+    border-collapse: collapse;
 }
