@@ -1,13 +1,16 @@
-body{ font-family: Arial; display: block 
+body{ 
+    font-family: Arial; 
+    display: block; 
+    background-color: cadetblue
+}
+
+form{ font-size: 35px;
 
 }
 
-form{ font-size: 35px
-
-}
-
-form label { color: brown; display: block
-
+form label { 
+    color: mediumvioletred; 
+    display: block;
 }
 
 form label span.fieldTitle {
@@ -18,6 +21,6 @@ form label input {
 
 }
 
-form button { color: cornflowerblue
+form button { 
 
 }
