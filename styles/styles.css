@@ -1,19 +1,28 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: cursive;
+    text-align: center;
+    background-color: antiquewhite;
+
     }
     
+h1{color: red}
+
     form{
-    font-size: 18px;
+    font-size: 20px;
     }
     
-    form label span.fieldTitle {
-    color: brown;
+    form label .user {
+    color: red;
     }
     
     form label .pass {
-        color: #362
+        color: red;
         }
     
     form label input {
-    display: block;
+    }
+
+    button {
+        color: red;
+        background-color: plum
     }
