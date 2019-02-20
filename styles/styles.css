@@ -1,17 +1,20 @@
 body{
-
+background-color: rgb(230, 171, 215)
 }
 
 form{
+font-family: 'Courier New', Courier, monospace
+
 
 }
 
 form label {
+color: rgb(206, 56, 126);
 
 }
 
 form label span.fieldTitle {
-
+font-size: 25px
 }
 
 form label input {
@@ -19,5 +22,10 @@ form label input {
 }
 
 form button {
+    background-color: lightblue
+}
 
+h1{ 
+    color: rgb(206, 56, 126)
+    
 }
