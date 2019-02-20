@@ -1,8 +1,11 @@
 body{
+    background-color: powderblue;
+
 
 }
 
 form{
+    
 
 }
 
@@ -11,13 +14,19 @@ form label {
 }
 
 form label span.fieldTitle {
+    font-family: Arial ;
+    color: slategrey;
+    font-size: 30px
 
 }
 
 form label input {
+    display: block
 
 }
 
 form button {
+    display: block;
+    border-radius: 12px
 
 }
