@@ -1,28 +1,21 @@
-body{
-    font-family: cursive;
+
+body{font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    background-color: antiquewhite;
-
-    }
-    
-h1{color: red}
-
-    form{
-    font-size: 20px;
-    }
-    
-    form label .user {
-    color: red;
-    }
-    
-    form label .pass {
-        color: red;
-        }
-    
-    form label input {
+    background-color: whitesmoke;
+    color: rgb(4, 1, 140)
     }
 
-    button {
-        color: red;
-        background-color: plum
-    }
+ h1{color: black}   
+h2{font-size: 20px;)}
+
+.consigna {font-size: 20px;}
+
+h3{font-size: 15px;
+color: black}
+    form{color: black;
+    font-size: 15px;}
+
+    select{font-size: 20px}
+
+    button {color: white;
+        background-color:rgb(4, 1, 140);}
