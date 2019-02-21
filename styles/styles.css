@@ -1,7 +1,15 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: orange
+
+}
+
 body{
     font-family: Verdana; 
     color: forestgreen;
-    font-size: 12
+    font-size: 12;
+    background-color: cornsilk;
+
 
 }
 
@@ -24,5 +32,6 @@ form label input {
 }
 
 form button {
-background-color: orange
+background-color: orange;
+display: block;
 }
