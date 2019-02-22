@@ -1,6 +1,11 @@
 body{
     font-family: 'Lucida Sans';
-    background: #dc143c;
+    background: lightcyan;
+}
+h1{
+    color: purple;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
 }
 
 form{
@@ -8,17 +13,19 @@ form{
 }
 
 form label {
-    background-color: blue;
+    color: rosybrown;
+    font-weight: bold;
 }
 
 form label span.fieldTitle {
-    color: aqua;
     padding-right: 15pt;
 }
 
 form label input {
-    display: block;
-
+    display: inline;
+}
+form label input.userName {
+    font-display: text;
 }
 
 form button {
